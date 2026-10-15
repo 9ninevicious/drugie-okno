@@ -7,19 +7,40 @@
         x:Class="okno.MainWindow"
         Title="Okno agenta"
         Background="#E0E7FF">
-    <StackPanel HorizontalAlignment="Center" 
-                VerticalAlignment="Center"
-                Spacing="8">
-        <TextBlock Text="okno agenta" 
-                   HorizontalAlignment="Center" 
-                   FontSize="32" 
-                   FontFamily="Century Gothic" 
-                   FontWeight="Bold" 
-                   Foreground="#4F46E5"/>
-        <TextBlock Text="agent sam robi okno" 
-                   HorizontalAlignment="Center"
-                   FontFamily="Century Gothic"
-                   FontSize="14"
-                   Foreground="#6B7280"/>
-    </StackPanel>
+    <Panel>
+        <!-- Subtelne tło geometryczne -->
+        <Ellipse Width="140" Height="140"
+                 Fill="#C7D2FE"
+                 Opacity="0.5"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Margin="-30,-30,0,0"/>
+
+        <Ellipse Width="100" Height="100"
+                 Fill="#A5B4FC"
+                 Opacity="0.4"
+                 HorizontalAlignment="Right"
+                 VerticalAlignment="Bottom"
+                 Margin="0,0,-20,-20"/>
+
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Spacing="8">
+            <TextBlock Text="okno agenta" 
+                       HorizontalAlignment="Center" 
+                       FontSize="32" 
+                       FontFamily="Century Gothic" 
+                       FontWeight="Bold" 
+                       Foreground="#4F46E5"/>
+            <Rectangle Width="36" Height="3" 
+                       Fill="#818CF8" 
+                       RadiusX="1.5" RadiusY="1.5" 
+                       HorizontalAlignment="Center"/>
+            <TextBlock Text="agent sam robi okno" 
+                       HorizontalAlignment="Center"
+                       FontFamily="Century Gothic"
+                       FontSize="14"
+                       Foreground="#6B7280"/>
+        </StackPanel>
+    </Panel>
 </Window>
