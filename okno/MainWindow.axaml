@@ -42,7 +42,11 @@
                        FontSize="14"
                        Foreground="#6B7280"/>
             <TextBlock Text="Świetne zadanie - taka praca nad oknem to czysta przyjemność!" 
-                       HorizontalAlignment="Center"/>
+                       HorizontalAlignment="Center"
+                       FontFamily="Century Gothic"
+                       FontSize="13"
+                       FontStyle="Italic"
+                       Foreground="#4338CA"/>
         </StackPanel>
     </Panel>
 </Window>
