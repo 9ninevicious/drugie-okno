@@ -41,6 +41,8 @@
                        FontFamily="Century Gothic"
                        FontSize="14"
                        Foreground="#6B7280"/>
+            <TextBlock Text="Świetne zadanie – taka praca nad oknem to czysta przyjemność!" 
+                       HorizontalAlignment="Center"/>
         </StackPanel>
     </Panel>
 </Window>
