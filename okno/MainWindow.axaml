@@ -5,5 +5,11 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="okno.MainWindow"
         Title="okno">
-    <TextBlock Text="okno agenta" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32"/>
+    <TextBlock Text="okno agenta" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" 
+               FontSize="32" 
+               FontFamily="Century Gothic" 
+               FontWeight="SemiBold" 
+               Foreground="#4F46E5"/>
 </Window>
