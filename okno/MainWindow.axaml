@@ -5,7 +5,8 @@
         mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
         Width="400" Height="250"
         x:Class="okno.MainWindow"
-        Title="Okno agenta">
+        Title="Okno agenta"
+        Background="#E0E7FF">
     <StackPanel HorizontalAlignment="Center" 
                 VerticalAlignment="Center"
                 Spacing="8">
