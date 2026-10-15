@@ -6,6 +6,7 @@
         Width="460" Height="260"
         x:Class="okno.MainWindow"
         Title="Okno agenta"
+        WindowStartupLocation="CenterScreen"
         Background="#E0E7FF">
     <Panel>
         <!-- Subtelne tło geometryczne -->
@@ -26,6 +27,22 @@
         <StackPanel HorizontalAlignment="Center" 
                     VerticalAlignment="Center"
                     Spacing="8">
+            <!-- Mała plakietka od agenta -->
+            <Border Background="#C7D2FE" 
+                    CornerRadius="12" 
+                    Padding="10,4" 
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,4">
+                <StackPanel Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                    <Ellipse Width="6" Height="6" Fill="#10B981" VerticalAlignment="Center"/>
+                    <TextBlock Text="Zadanie ukończone ✨" 
+                               FontSize="11" 
+                               FontFamily="Century Gothic" 
+                               FontWeight="SemiBold" 
+                               Foreground="#312E81"/>
+                </StackPanel>
+            </Border>
+
             <TextBlock Text="okno agenta" 
                        HorizontalAlignment="Center" 
                        FontSize="32" 
