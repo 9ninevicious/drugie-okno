@@ -16,6 +16,7 @@
                    FontWeight="Bold" 
                    Foreground="#4F46E5"/>
         <TextBlock Text="agent sam robi okno" 
-                   HorizontalAlignment="Center"/>
+                   HorizontalAlignment="Center"
+                   Foreground="#6B7280"/>
     </StackPanel>
 </Window>
