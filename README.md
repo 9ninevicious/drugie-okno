@@ -92,5 +92,22 @@
       FontSize="13"
       FontStyle="Italic"
       Foreground="#4338CA"/>
+16. szesnasta zmiana dodala mala plakietke od agenta z napisem "zadanie ukonczone"
+ +    WindowStartupLocation="CenterScreen"
+      <!-- Mała plakietka od agenta -->
+            <Border Background="#C7D2FE" 
+                    CornerRadius="12" 
+                    Padding="10,4" 
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,4">
+                <StackPanel Orientation="Horizontal" Spacing="6" VerticalAlignment="Center">
+                    <Ellipse Width="6" Height="6" Fill="#10B981" VerticalAlignment="Center"/>
+                    <TextBlock Text="Zadanie ukończone ✨" 
+                               FontSize="11" 
+                               FontFamily="Century Gothic" 
+                               FontWeight="SemiBold" 
+                               Foreground="#312E81"/>
+                </StackPanel>
+            </Border>
 
-  kazdy podpunkt dokladnie analizowalam i kazda linijke tekstu rozumialam
+ kazdy podpunkt dokladnie analizowalam i wszystkie linijki sa dla mnie zrozumiale
