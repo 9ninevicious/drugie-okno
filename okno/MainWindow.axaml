@@ -11,6 +11,6 @@
                VerticalAlignment="Center" 
                FontSize="32" 
                FontFamily="Century Gothic" 
-               FontWeight="SemiBold" 
+               FontWeight="Bold" 
                Foreground="#4F46E5"/>
 </Window>
